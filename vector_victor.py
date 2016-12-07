@@ -10,8 +10,7 @@ def shape(vector_list):
         matrix_size = tuple([len(vector_list), len(vector_list[0])])
         return matrix_size
     else:
-        l = list(vector_list)
-        return (len(l), )
+        return (len(vector_list), )
 
 
 def vector_add(m, n):
